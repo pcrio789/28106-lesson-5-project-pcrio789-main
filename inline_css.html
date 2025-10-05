@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <!--
-       Course Name: Internet/Web Development Level I 
-       Section: CIS133DA 
-       Lesson: Lesson 5 - Introducition CSS
-   -->
-   <title>Paris Chritle's Inline CSS Page</title>
-   <meta name="author" content=“Paris “Christle>
-   <meta name="keywords" content="CSS, inline CSS, web design, HTML, new learner CSS">
-   <meta name="description" content=“My Inline CSS page will show various inline CSS lessons I have learned. I apply CSS within HTML to format and make it pretty. I’m excited to learn how to use it.”>
+ <!--
+     Course Name: Internet/Web Development Level I
+     Section: CIS133DA
+     Lesson: Lesson 5 - Introduction To CSS
+     Sync Issues: VS is not syncing. I have older laptop
+ -->
+ <title>Paris Christle Inline CSS Page</title>
+ <meta name="author" content="Paris Christle">
+ <meta name="keywords" content="CSS, inline CSS, web design, HTML, new learner CSS">
+ <meta name="description" content="My Inline CSS page will show various inline CSS lessons I have learned. I apply CSS within HTML to format and make it pretty. I’m excited to learn how to use it.">
 </head>
 <body>
-   <header>
-       <h1>Applying Inline CSS</h1>
-       <p><em>”Quality is more important than quantity. One home run is much better than two doubles.” -Steve Jobs</em></p>
-       <!--
-       <nav>
-           <a href="#">Placeholder Link</a>
-       </nav>
-       -->
-   </header>
-   <main>
-       <h2>Learning CSS</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsa fugit odio corporis tenetur nam accusamus alias atque. Deleniti hic debitis eius doloribus consequuntur unde quibusdam excepturi eligendi error animi!</p>
-      <p><i>I wasn't sure if I was supposed to leave the text above, let me know.</i> This page is all about learning CSS and applying CSS styles to webpages.</p>
-    </main>
-    <footer>
-        <p><small>Copyright by Paris Christle &copy; 2025</small></p>
-    </footer>
+ <header style="text-align:center;">
+   <!-- If the first font isn't available, the browser uses the next one in the list, then finally the generic family. -->
+   <h1 style="color:#1a73e8; font-size:32px; font-family: 'Georgia', 'Times New Roman', serif;">Applying Inline CSS</h1>
+
+   <!-- font-weight accepts: keywords (normal, bold, lighter, bolder), numeric (100–900), and relative keywords (bolder/lighter relative to parent) -->
+   <p style="font-weight:bold;"><em>"Quality is more important than quantity. One home run is much better than two doubles." - Steve Jobs</em></p>
+
+   <!--
+   <nav>
+       <a href="#">Placeholder Link</a>
+   </nav>
+   -->
+ </header>
+
+ <main>
+   <h2 style="color: teal;">Learning CSS</h2>
+   <p style="font: normal normal normal 1.15em/1.6 'Helvetica Neue', Arial, sans-serif;">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsa fugit odio corporis tenetur nam accusamus alias atque. Deleniti hic debitis eius doloribus consequuntur unde quibusdam excepturi eligendi error animi!
+   </p>
+
+   <p style="font: italic normal normal 18px/1.7 'Courier New', Courier, monospace;">
+     <i>I wasn't sure if I was supposed to leave the text above, let me know.</i> This page is all about learning CSS and applying CSS styles to webpages.
+   </p>
+
+   <h2 style="color:rgb(200, 50, 100);">Briefly explain the difference between the generic font families.</h2>
+   <p>CSS generic font families include serif, sans-serif, monospace, cursive, and fantasy. Serif fonts have designs at the ends of the letters, but sans-serif does not. Monospace fonts look very basic, same size etc. like computer code looks. Cursive font looks like hand writing and fantasy fonts are silly, decorative kind of fonts.</p>
+
+   <h2>Briefly explain the different ways that you can indicate color on a web page or in text.</h2>
+   <p>CSS defines colors on a web page using name colors like blue, red etc., RGB values, HSL Values and hexadecimal values. They offer different ways to
+       design text, colored backgrounds and borders that make the pages look nice.</p>
+ </main>
+
+ <footer style="text-align:right;">
+   <p><small>Copyright by Paris Christle &copy; 2025</small></p>
+ </footer>
 </body>
 </html>
